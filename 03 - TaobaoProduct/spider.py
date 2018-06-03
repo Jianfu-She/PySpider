@@ -74,6 +74,7 @@ def save_to_mysql(product):
 def main():
     for i in range(1, 6):
         index_page(i)
+    browser.close()
 
 
 if __name__ == '__main__':
