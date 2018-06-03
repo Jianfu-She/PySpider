@@ -1,5 +1,4 @@
 from urllib.parse import urlencode
-
 from pyquery import PyQuery as pq
 
 import requests

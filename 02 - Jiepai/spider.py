@@ -1,8 +1,8 @@
-import os
 from hashlib import md5
 from multiprocessing.pool import Pool
 from urllib.parse import urlencode
 
+import os
 import requests
 
 GROUP_START = 0
