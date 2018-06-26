@@ -149,7 +149,7 @@ class CrackTouClick():
         locations = self.get_points(result)
         self.touch_click_words(locations)
         self.touch_click_verify()
-        # 判定是否成功                     
+        # 判定是否成功
         success = self.wait.until(
             EC.text_to_be_present_in_element((By.CLASS_NAME, 'touclick-hod-note'), '验证成功'))
         print(success)
