@@ -132,7 +132,7 @@ class CrackTouClick():
 
     def crack(self):
         """
-        破解入口
+        破解的入口
         :return: None
         """
         self.open()
