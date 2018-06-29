@@ -26,7 +26,8 @@ TESTER_CYCLE = 20
 GETTER_CYCLE = 300
 
 # 测试API
-TEST_URL = 'http://www.baidu.com'
+# TEST_URL = 'http://www.baidu.com'
+TEST_URL = 'http://weixin.sogou.com/weixin?type=2&query=nba'
 
 # API配置
 API_HOST = '0.0.0.0'

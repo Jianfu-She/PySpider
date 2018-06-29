@@ -4,3 +4,4 @@ venv
 # PyCharm:
 .idea
 __pycache__
+*.pyc
